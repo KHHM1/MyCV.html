@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hajar Sulaiman - Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="profile-img">
+            <img src="PorfilePic.jpg" alt="Profile Photo">
+        </div>
+        <h1>Hajar Sulaiman</h1>
+        <p class="title">Software Development</p> 
+        <p class="title">ID: 421003256</p>             
+    </header>
+    <section>
+        <div class="SectionHeader" onclick="toggleSection('contact')">Contact Information</div>
+        <card id="contact">
+            <ul>
+                <li>
+                    <h3>Mobile</h3>
+                    <p>0556406330</p>
+                </li>
+                <li>
+                    <h3>Email</h3>
+                    <p>slymanhajr1@gmail.com</p>
+                </li>
+                <li>
+                    <h3>Address</h3>
+                    <p>Tabuk</p>
+                </li>
+            </ul>
+        </card>
+    </section>
+    <section>
+        <div class="SectionHeader" onclick="toggleSection('summary')">Summary</div>
+        <card id="summary">
+        <p>Highly skilled and results-driven Software Developer with 2 years of experience in designing, developing, and implementing web and software applications. 
+            Proficient in various programming languages and frameworks, with a strong background in full-stack development. 
+            Adept at working in fast-paced environments and collaborating with cross-functional teams to deliver high-quality software solutions.</p>
+   
+        </card>
+    </section>
+    <section>
+        <div class="SectionHeader" onclick="toggleSection('education')">Education</div>
+        <card id="education">
+            <ul>
+                <li>
+                    <h3>Bachelor of Science in Computer Science</h3>
+                    <p>University of Tabuk, 2024</p>
+                </li>
+                <li>
+                    <h3>High School</h3>
+                    <p>Tabuk High School, 2020</p>
+                </li>
+            </ul>
+        </card>
+    </section>
+    <section>
+        <div class="SectionHeader" onclick="toggleSection('experience')">Experience</div>
+        <card id="experience">
+            <ul>
+                <li>
+                    <h3>Junior Software Developer</h3>
+                    <p>Netways CLT</p>
+                    <p>December 2023, Current</p>
+                    <ul>
+                        <li>Assisted in the development of web applications using PHP and MySQL.</li>
+                        <li>Wrote unit tests and conducted debugging to ensure high-quality code.</li>
+                        <li>Participated in Agile development processes, including sprint planning and daily stand-ups.</li>
+                        <li>Developed and maintained documentation for software applications and APIs.</li>
+                    </ul>
+                </li>
+            </ul>
+        </card>
+    </section>
+    <section>
+        <div class="SectionHeader" onclick="toggleSection('skills')">Skills</div>
+        <card id="skills">
+            <ul>
+                <li>JavaScript, Python, Java, PHP, C#, SQL</li>
+                <li>HTML, CSS, Angular, React, Node.js, ASP.NET</li>
+                <li>MySQL, MongoDB, PostgreSQL, SQL Server</li>
+                <li>Git, Docker, Jenkins, AWS, Azure</li>
+            </ul>
+        </card>
+    </section>
+    <script src="scripts.js"></script>
+</body>
+</html>
